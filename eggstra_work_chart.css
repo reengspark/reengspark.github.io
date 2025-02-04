@@ -1,117 +1,238 @@
-.member-list {
-	margin: 1em 1.5em;
-	padding: 10px 20px;
-	background: #eee;
-	display: flex;
-	align-items: center;
-	border-left: solid 3px #ddd;
-	border-right: solid 3px #ddd;
-}
-
-.member-detail {
-	margin: 0 1em;
-	font-weight: lighter;
-}
-
-.member-name {
-	font-weight: 600;
-}
-
-img.discord-icon {
-	width: 50px;
-	border-radius: 50%;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-touch-callout: none;
-	-moz-user-select: none;
-	user-select: none;
-}
-
-.weapon-box {
-	margin: 0 3px 0 -2px;
-	padding: 2px 3px;
-	padding-left: 42px;
-	border-radius: 5px;
-	display: inline-block;
-	align-items: center;
-	background: #feb;
-	position: relative;
-	color: #222;
-	font-weight: 600;
-}
-
-.weapon-box img {
-	position: absolute;
-	left: 2px;
-	top: -5px;
-	width: 40px;
-}
-
-.chart-map {
-	display: flex;
-	justify-content: center;
-}
-
-.chart-map img {
-	margin-bottom: 1em;
-	width: calc(100% - 2.5em);
-	border: solid 2px #ddd;
-}
-
-ul.wave-info {
-	margin: 0 1em;
-}
-
-ul.wave-info li {
-	font-weight: lighter;
-}
+@media screen and (min-width: 751px) {
+	.member-list {
+		margin: 1em 3em;
+		padding: 10px 20px;
+		background: #eee;
+		display: flex;
+		align-items: center;
+		border-left: solid 3px #ddd;
+		border-right: solid 3px #ddd;
+	}
 	
-
-.chart-box {
-	margin: 10px;
-	padding: 1em;
+	.member-detail {
+		margin: 0 1em;
+		font-weight: lighter;
+	}
+	
+	.member-name {
+		font-weight: 600;
+	}
+	
+	img.discord-icon {
+		width: 50px;
+		border-radius: 50%;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-touch-callout: none;
+		-moz-user-select: none;
+		user-select: none;
+	}
+	
+	.weapon-box {
+		margin: 0 3px 0.25em -2px;
+		padding: 2px 3px;
+		padding-left: 42px;
+		border-radius: 5px;
+		display: inline-block;
+		align-items: center;
+		background: #feb;
+		position: relative;
+		color: #222;
+		font-weight: 600;
+	}
+	
+	.weapon-box img {
+		position: absolute;
+		left: 2px;
+		top: -5px;
+		width: 40px;
+	}
+	
+	.chart-map {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.chart-map img {
+		margin-bottom: 1em;
+		width: calc(100% - 6em);
+		border: solid 2px #ddd;
+	}
+	
+	ul.wave-info {
+		margin: 0 3em;
+	}
+	
+	ul.wave-info li {
+		font-weight: lighter;
+	}
+		
+	.chart-box {
+		margin: 10px;
+		padding: 1em;
+	}
+	
+	table.chart-table {
+		margin: 1em 3em;
+		width: calc(100% - 6em);
+		border-collapse: collapse;
+	}
+	
+	table.chart-table .header {
+		background: #eee;
+		border-collapse: collapse;
+		border-bottom: solid 1px #999;
+		border-top: solid 1px #999;
+	}
+	
+	table.chart-table td {
+		border-collapse: collapse;
+		border-bottom: solid 1px #999;
+		border-top: solid 1px #999;
+	}
+	
+	table.chart-table tr td {
+		width: 30%;
+		padding: 1em;
+	}
+	
+	table.chart-table tr.spawn-change td {
+		padding: 0.3em 1em;
+	}
+	
+	table.chart-table tr td.boss {
+		width: 40%;
+	}
+	
+	.blue-spawn {
+		background: #cdf;
+	}
+	
+	.green-spawn {
+		background: #cfc;
+	}
+	
+	.red-spawn {
+		background: #fcc;
+	}
 }
 
-table.chart-table {
-	margin: 1em 1.25em;
-	width: calc(100% - 2.5em);
-	border-collapse: collapse;
-}
-
-table.chart-table .header {
-	background: #eee;
-	border-collapse: collapse;
-	border-bottom: solid 1px #999;
-	border-top: solid 1px #999;
-}
-
-table.chart-table td {
-	border-collapse: collapse;
-	border-bottom: solid 1px #999;
-	border-top: solid 1px #999;
-}
-
-table.chart-table tr td {
-	width: 30%;
-	padding: 1em;
-}
-
-table.chart-table tr.spawn-change td {	
-	padding: 0.3em 1em;
-}
-
-table.chart-table tr td.boss {
-	width: 40%;
-}
-
-.blue-spawn {
-	background: #cdf;
-}
-
-.green-spawn {
-	background: #cfc;
-}
-
-.red-spawn {
-	background: #fcc;
-}
+@media screen and (max-width: 750px) {
+		.member-list {
+		margin: 1em 1.5em;
+		padding: 10px 20px;
+		background: #eee;
+		display: flex;
+		align-items: center;
+		border-left: solid 3px #ddd;
+		border-right: solid 3px #ddd;
+	}
+	
+	.member-detail {
+		margin: 0 1em;
+		font-weight: lighter;
+	}
+	
+	.member-name {
+		font-weight: 600;
+	}
+	
+	img.discord-icon {
+		width: 50px;
+		border-radius: 50%;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-touch-callout: none;
+		-moz-user-select: none;
+		user-select: none;
+	}
+	
+	.weapon-box {
+		margin: 0 3px 0 -2px;
+		padding: 2px 3px;
+		padding-left: 42px;
+		border-radius: 5px;
+		display: inline-block;
+		align-items: center;
+		background: #feb;
+		position: relative;
+		color: #222;
+		font-weight: 600;
+	}
+	
+	.weapon-box img {
+		position: absolute;
+		left: 2px;
+		top: -5px;
+		width: 40px;
+	}
+	
+	.chart-map {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.chart-map img {
+		margin-bottom: 1em;
+		width: calc(100% - 2.5em);
+		border: solid 2px #ddd;
+	}
+	
+	ul.wave-info {
+		margin: 0 1em;
+	}
+	
+	ul.wave-info li {
+		font-weight: lighter;
+	}
+		
+	
+	.chart-box {
+		margin: 10px;
+		padding: 1em;
+	}
+	
+	table.chart-table {
+		margin: 1em 1.25em;
+		width: calc(100% - 2.5em);
+		border-collapse: collapse;
+	}
+	
+	table.chart-table .header {
+		background: #eee;
+		border-collapse: collapse;
+		border-bottom: solid 1px #999;
+		border-top: solid 1px #999;
+	}
+	
+	table.chart-table td {
+		border-collapse: collapse;
+		border-bottom: solid 1px #999;
+		border-top: solid 1px #999;
+	}
+	
+	table.chart-table tr td {
+		width: 30%;
+		padding: 1em;
+	}
+	
+	table.chart-table tr.spawn-change td {	
+		padding: 0.3em 1em;
+	}
+	
+	table.chart-table tr td.boss {
+		width: 40%;
+	}
+	
+	.blue-spawn {
+		background: #cdf;
+	}
+	
+	.green-spawn {
+		background: #cfc;
+	}
+	
+	.red-spawn {
+		background: #fcc;
+	}
+}{
