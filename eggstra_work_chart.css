@@ -148,7 +148,7 @@
 	}
 	
 	.weapon-box {
-		margin: 0 3px 0 -2px;
+		margin: 0 3px 0.25em -2px;
 		padding: 2px 3px;
 		padding-left: 42px;
 		border-radius: 5px;
