@@ -1,5 +1,4 @@
-@media screen and (min-width: 751px) {
-	
+@media screen and (min-width: 751px) 
 	body {
 		margin: 0;
 		font-family: sans-serif;
@@ -83,10 +82,10 @@
 	}
 	
 	h3 {
-		margin: 1.5em 0 0.5em 0;
+		margin: 1.5em 2.25em 0.5em 2.25em;
 	}
 	
-	.content-text {
+	.content-text p {
 		padding: 0 2.5em;
 		font-size: 17px;
 		line-height: 1.7;
@@ -98,6 +97,7 @@
 	}
 	
 	ul.custom {
+		margin: 0 2.5em;
 		max-width: 300px;
 		border: solid 1px gray;
 		padding: 0.5em 1em 0.5em 2.3em;
@@ -109,6 +109,7 @@
 		line-height: 1.5;
 		padding: 0.5em 0;
 		list-style-type: none!important;
+		font-weight: lighter;
 	}
 	
 	ul.custom li:before {
@@ -131,6 +132,15 @@
 		border: solid 2px gray;
 	}
 	
+	ul.custom-2 {
+		margin: 0 3em;
+	}
+	
+	ul.custom-2 li {
+		margin: 0.5em 0;
+		font-weight: lighter;
+	}
+	
 	footer {
 		margin-top: 3em;
 		border-top: solid 2px gray;
@@ -140,7 +150,6 @@
 		text-align: center;
 		color: #bbb;
 	}
-
 }
 
 @media screen and (max-width: 750px) {
