@@ -163,8 +163,9 @@
 	.weapon-box img {
 		position: absolute;
 		left: 2px;
-		top: -5px;
+		top: -6px;
 		width: 40px;
+		filter: drop-shadow(1px 1px rgba(0,0,0,0.2));
 	}
 	
 	.chart-map {
