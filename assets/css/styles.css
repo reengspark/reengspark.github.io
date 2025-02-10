@@ -87,7 +87,7 @@
 	
 	.content-text p {
 		padding: 0 2.5em;
-		font-size: 17px;
+		font-size: 15px;
 		line-height: 1.7;
 		font-weight: lighter;
 	}
@@ -241,14 +241,11 @@
 	}
 	
 	.content-text p {
+		margin: 1.5em 0;
 		padding: 0 1.25em;
 		font-size: 15px;
 		line-height: 1.7;
 		font-weight: lighter;
-	}
-	
-	.content-text p {
-		margin: 1.5em 0;
 	}
 	
 	.text-underline {
