@@ -2,11 +2,11 @@
 	.member-list {
 		margin: 1em 3em;
 		padding: 10px 20px;
-		background: #eee;
+		background: #e5f5ff;
 		display: flex;
 		align-items: center;
-		border-left: solid 3px #ddd;
-		border-right: solid 3px #ddd;
+		border-left: solid 3px #9cf;
+		border-right: solid 3px #9cf;
 		max-width: 700px;
 	}
 	
@@ -45,8 +45,9 @@
 	.weapon-box img {
 		position: absolute;
 		left: 2px;
-		top: -5px;
+		top: -6px;
 		width: 40px;
+		filter: drop-shadow(1px 1px rgba(0,0,0,0.2));
 	}
 	
 	.chart-map {
@@ -145,11 +146,11 @@
 		.member-list {
 		margin: 1em 1.5em;
 		padding: 10px 20px;
-		background: #eee;
+		background: #e5f5ff;
 		display: flex;
 		align-items: center;
-		border-left: solid 3px #ddd;
-		border-right: solid 3px #ddd;
+		border-left: solid 3px #9cf;
+		border-right: solid 3px #9cf;
 	}
 	
 	.member-detail {
